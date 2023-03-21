@@ -1,0 +1,48 @@
+{% extends 'pages/layout.html' %}
+
+{% block ciało %}
+
+
+<div class="contact_me">
+   CHĘĆ KONTAKTU?  <br>
+   PROSZĘ WYPEŁNIĆ FORMULARZ
+    <!--    WYPEŁNIJ PROSZĘ FORMULARZ:-->
+
+    <br/>
+</div>
+
+<form action="{% url 'pages:form_app_save' %}" method="post">
+    {% csrf_token %}
+
+    <div class="form-group">
+        <input type="text" name="full_name" class="form-control" placeholder="IMIĘ I NAZWISKO" required>
+        <input type="number" name="phone_number" class="form-control" placeholder="NUMER TELEFONU" required>
+        <input type="email" name="email" class="form-control" placeholder="E-MAIL" required>
+    </div>
+    <button type="submit" class="btn btn-primary">PRZEŚLIJ</button>
+</form>
+
+
+<div class="number"> KONTAK TELEFONICZNY NA NUMER : <br>
+    531943741
+
+
+</div>
+<style>
+    body {
+        background-image: url(http://www.wcsprint.pl/static/jpg/contact_site.jpg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100% 100%;
+    }
+</style>
+
+
+{% endblock ciało %}
+
+</html>
+
+
+<style>
+
+</style>

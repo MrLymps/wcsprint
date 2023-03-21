@@ -1,0 +1,40 @@
+{% extends 'pages/layout.html' %}
+
+
+
+
+
+{% block ciało %}
+
+            <div class="about_me">
+                NAZYWAM SIĘ PRZEMYSŁAW SKOCZYLAS,<br>
+                OD PIĘTNASTU LAT PRACUJĘ W BRANŻY SANITARNEJ.<br>
+                JESTEM AUTORYZOWANYM SERWISANTEM MAREK:<br>
+                -ROCA,<br>
+                -INVENA,<br>
+                -OMNIRES,<br>
+                -POLL-SPA.<br>
+                PROWADZĘ SERWIS POGWARANCYJNY DLA FIRM:<br>
+                -GEBERIT,<br>
+                -CERSANIT,<br>
+                -KOŁO.<br>
+                W RAZIE JAKICHKOLWIEK PYTAŃ PROSZĘ O KONTAKT -
+                <a href="{% url 'pages:contact' %}"> TUTAJ</a>
+
+            </div>
+
+</html>
+
+
+
+<style>
+        body {
+            background-image: url(http://www.wcsprint.pl/static/jpg/toilet_aboutme.jpg);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100% 100%;
+        }
+
+</style>
+
+{% endblock %}

@@ -1,0 +1,532 @@
+.company__name {
+    color: whitesmoke;
+    font-size: 33px;
+    margin-top: 3%;
+    font-weight: bold;
+    text-align: center;
+}
+
+.choose_site{
+    font-weight: bolder;
+    padding: 50px;
+    font-size: 35px;
+    color: whitesmoke;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.carousel-item {
+    background-size: cover;
+}
+
+.carousel-caption {
+    bottom: 200px;
+    margin-top: 10px;
+}
+
+
+.carousel-caption h5 {
+    font-size: 88px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: Tahoma;
+    letter-spacing: 10px;
+    /*margin-top: 70px;*/
+    margin-bottom: 5%;
+}
+
+
+.custom-width {
+    width: 100vw;
+    height: 100vh;
+}
+
+.carousel-caption p {
+    width: 100%;
+    font-weight: bolder;
+    /*margin: auto;*/
+    font-size: 30px;
+    line-height: 1.9;
+}
+
+
+.carousel-caption a {
+    text-transform: uppercase;
+    background: gray;
+    padding: 10px 40px;
+    font-weight: bold;
+    /*display: inline-block;*/
+    color: yellow;
+    /*margin-bottom: 50%;*/
+    margin-top: 60px;
+}
+
+
+.navbar-nav a {
+    font-size: 32px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-left: 23px;
+    margin-right: 31px;
+    margin-top: 33px;
+    /*display: inline-list-item;*/
+}
+
+
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+    color: white;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar-nav {
+    font-weight: bold;
+}
+
+.nav-link {
+    padding: .2rem 1rem;
+}
+
+.nav-link.active, .nav-link:focus {
+    color: blue;
+}
+
+.navbar-toggler {
+    padding: 1px 5px;
+    font-size: 48px;
+    /*line-height: 0.3;*/
+    background: #fff;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: yellow;
+}
+
+
+/*.w-100 {*/
+/*    height: 600vh;*/
+/*}*/
+
+@media only screen and (max-width: 767px) {
+    .navbar-nav.ml-auto {
+        background: rgba(0, 0, 0, 0.5);
+    }
+
+    .navbar-nav a {
+        font-size: 14px;
+        font-weight: normal;
+    }
+}
+
+.dropdown {
+    font-size: 15px;
+    /*background-color: #20c997;*/
+    /*display: inline-block;*/
+    width: 110%;
+    /*margin-right: 40px;*/
+    /*margin-bottom: 20px;*/
+    /*margin-top: 20px;*/
+    background-color: transparent;
+    font-family: Tahoma;
+    /*padding: 10px;*/
+    /*padding: 20px;*/
+}
+
+.dropdown a {
+    /*padding: 20px;*/
+    color: white;
+    font-size: 17px;
+    font-weight: bolder;
+    /*display: inline-block;*/
+    /*width: 220%;*/
+    font-family: Tahoma;
+    margin-left: -2px;
+    margin-right: -2px;
+
+
+}
+
+li {
+    transition-duration: 0.5s;
+    color: whitesmoke;
+    font-weight: bolder;
+    font-size: larger;
+
+
+}
+
+li:hover {
+    color: yellow;
+    background-color: transparent;
+
+}
+
+ul li ul {
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    /*text-align: center;*/
+    transition: all 0.5s ease;
+    margin-top: 1rem;
+    /*left: 0;*/
+}
+
+ul li:hover > ul,
+ul li ul:hover {
+    visibility: visible;
+    opacity: 1;
+    color: yellow;
+}
+
+
+/*CONTACT*/
+
+.contact_me {
+    margin-top: 190px;
+    padding: 20px;
+    color: whitesmoke;
+    margin-left: -26px;
+    font-family: Tahoma;
+    font-size: 30px;
+    font-weight: bolder;
+    text-align:center;
+
+}
+
+.contact_phone {
+    padding: 20px;
+    color: whitesmoke;
+    /*margin-right: 800px;*/
+    font-family: Tahoma;
+    font-size: 28px;
+    font-weight: bolder;
+    text-align:center;
+
+}
+
+.number {
+    padding: 40px;
+    color: whitesmoke;
+    text-align:center;		
+    font-family: Tahoma;
+    font-size: 30px;
+    font-weight: bolder;
+
+}
+
+.form-group {
+    width: 200px;
+    color: black;
+    font-size: 20px;
+}
+
+.form-control {
+    background-color: snow;
+    width: 350px;
+    color: black;
+    margin-top: 13px;
+    margin-left: 577px;
+    font-family: Tahoma;
+    font-size: larger;
+    font-weight: bolder;
+    padding: 22px;
+}
+
+.btn-primary {
+    margin-top: 10px;
+    margin-left: 660px;
+    width: 200px;
+    font-family: Tahoma;
+    font-weight: bolder;
+    font-size: larger;
+    background-color: gray;
+    border-color: transparent;
+}
+
+
+/*ABOUT ME*/
+
+.about_me {
+    margin-top: 150px;
+    margin-right: 183px;
+    padding: 50px;
+    color: whitesmoke;
+    /*margin-right: 800px;*/
+    margin-left: 50px;
+    /*font-family: Roboto;*/
+    font-size: 28px;
+    font-weight: bolder;
+    font-family: Tahoma;
+    /*background-color: #5c636a;*/
+}
+
+.toilets_info {
+    margin-top: 180px;
+    margin-right: 183px;
+    padding: 50px;
+    color: whitesmoke;
+    /*margin-right: 800px;*/
+    margin-left: 50px;
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: "Tahoma";
+
+}
+
+.shower_info {
+    margin-top: 180px;
+    margin-right: 183px;
+    padding: 50px;
+    color: whitesmoke;
+    /*margin-right: 800px;*/
+    margin-left: 50px;
+    font-family: Tahoma;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+/*background-color: #5c636a;*/
+
+.furniture_info {
+    margin-top: 180px;
+    margin-right: 183px;
+    padding: 50px;
+    color: whitesmoke;
+    /*margin-right: 800px;*/
+    margin-left: 50px;
+    font-family: Tahoma;
+    font-size: 30px;
+    font-weight: bolder;
+
+}
+
+@media screen and (max-width: 600px) {
+    /*.company__name {*/
+    /*    color: whitesmoke;*/
+    /*    margin-top: 7%;*/
+    /*    margin-left: 20%;*/
+
+    /*}*/
+
+    /*.toilets_info {*/
+    /*    color: whitesmoke;*/
+    /*    font-size: 14px;*/
+    /*    margin-top: 400px;*/
+    /*    margin-left: 1px;*/
+    /*    margin-right: 1px;*/
+    /*}*/
+    /*.carousel-caption {*/
+    /*    font-size: 5px;*/
+    /*    margin-top: 100px;*/
+    /*}*/
+    /*.carousel-caption h5 {*/
+    /*    font-size: 10px;*/
+    /*    margin-top: auto;*/
+    /*    width: auto;*/
+    /*    color: whitesmoke;*/
+    /*    right: 70%;*/
+    /*}*/
+
+
+}
+
+.gallery_hr {
+    color: deepskyblue;
+
+
+}
+
+
+
+/*                MOBILE SITE                     */
+
+/* page styling */
+body {
+    background: linear-gradient(90deg, #7bed9f, #3498db);
+}
+
+section {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+section h2 {
+    font-size: 39px;
+    text-align: center;
+    margin-right: 40px;
+    text-transform: uppercase;
+
+}
+
+section p {
+    margin-top: 150px;
+    font-size: 26px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bolder;
+    text-align: left;
+    margin-left: 5%;
+}
+
+/* hamburger */
+.checkbox {
+    display: none;
+}
+
+.button {
+    position: relative;
+    background-color: white;
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    position: fixed;
+    top: 5vh;
+    right: 5vw;
+    z-index: 2000;
+    box-shadow: 0 1rem 3rem black;
+    text-align: center;
+    cursor: pointer;
+}
+
+.background {
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+    position: fixed;
+    top: 5.5vh;
+    right: 5.5vw;
+    background-color: #5c636a;
+    z-index: 1000;
+
+    transition: transform 0.8s cubic-bezier(0.86, 0, 0.07, 1);
+}
+
+.nav {
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: -60vw;
+    z-index: 1500;
+    opacity: 0;
+    width: 0;
+    transition: all 0.8s;
+}
+
+.list {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    list-style: none;
+    text-align: center;
+    width: 100%;
+}
+
+.item {
+    margin: 1rem;
+    font-size: 36px;
+}
+
+.link:link,
+.link:visited {
+    display: inline-block;
+    font-size: 3rem;
+    font-weight: 300;
+    padding: 1rem 2rem;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-image: linear-gradient(
+            120deg,
+            transparent 0%,
+            transparent 50%,
+            white 50%
+    );
+    background-size: 220%;
+    transition: all 0.4s;
+}
+
+.link:hover,
+.link:active {
+    color: lightgreen;
+    cursor: pointer;
+}
+
+/* functionality */
+.checkbox:checked ~ .background {
+    transform: scale(80);
+}
+
+.checkbox:checked ~ .nav {
+    opacity: 1;
+    width: 100%;
+    right: 0;
+}
+
+/*  */
+/* styling hamb ICON */
+.icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.icon,
+.icon::before,
+.icon::after {
+    width: 3rem;
+    height: 2px;
+    background-color: gray;
+    display: inline-block;
+}
+
+.icon::before,
+.icon::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    transition: all 0.2s;
+}
+
+.icon::before {
+    top: -0.8rem;
+}
+
+.icon::after {
+    top: 0.8rem;
+}
+
+.button:hover icon:before {
+    top: -1rem;
+}
+
+.button:hover icon::after {
+    top: 1rem;
+}
+
+.checkbox:checked + .button .icon {
+    background-color: transparent;
+}
+
+.checkbox:checked + .button .icon::before {
+    top: 0;
+    transform: rotate(135deg);
+}
+
+.checkbox:checked + .button .icon::after {
+    top: 0;
+    transform: rotate(-135deg);
+}
+
+
+/*ABOUT_ME_MOBILE*/
+
+.about_me_mobile {
+    margin-top: 200px;
+    color: blue;
+    font-weight: bolder;
+}
+
